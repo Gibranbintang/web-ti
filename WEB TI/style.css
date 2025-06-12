@@ -1,0 +1,24 @@
+body {
+    background-color:rgb(93, 138, 112);
+}
+
+h1 {
+
+    font-family: sans-serif;
+}
+div {
+background-color: beige;
+height:300px;
+border:2px solid=beige;
+
+}
+.teras {
+background-color: bisque;
+height: 200px;
+
+}
+.rumah{
+    background-color: darkgray;
+
+    height: 450px;
+}
