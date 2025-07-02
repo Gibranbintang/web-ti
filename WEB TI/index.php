@@ -44,6 +44,7 @@ else
                 <a href="profil.php">PROFIL</a> |
                 <a href="about.php">ABOUT US</a>
                 <a href="login.php">LOGIN</a>
+                <a href="datamhs.php">DATA</a>
             </nav>
         </center>
         <h1 align ="center">
