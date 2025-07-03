@@ -1,13 +1,10 @@
 <?php
 
-    $koneksi = mysqli_connect("localhost:3306","root","","webti");
-    
-    if(!$koneksi)
-    {
-        die("Gagal".mysqli_connect_error($koneksi));
-    }
-   
-    $result = mysqli_query($koneksi, "SELECT * FROM mahasiswa");
+   require 'fungsi.php';
+
+    $query = "SELECT * FROM mahasiswa";
+
+    $rows = ambildata($query);
     
 
 
