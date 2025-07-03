@@ -53,7 +53,7 @@
             <td><?= $mhs["prodi"] ?></td>
             <td><?= $mhs["nohp"] ?></td>
             <td>
-                <a href="hapusmhs.php/?id=<?= $mhs["id"] ?>">Hapus</a> |
+                <a href="hapusmhs.php/?id=<?= $mhs["id"] ?>"onclick="return confirm('yakin mau dihapus');">Hapus</a> |
                 <a href="editmhs.php/?id=<?= $mhs["id"] ?>">EDIT</a>
             </td>
         </tr>
