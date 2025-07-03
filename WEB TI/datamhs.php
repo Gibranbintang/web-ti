@@ -37,7 +37,7 @@
     <table border=1 cellspacing="0" cellpadding="10px">
         <tr>
             <th>NO</th>
-            <th>NAAMA</th>
+            <th>NAMA</th>
             <th>NIM</th>
             <th>JURUSAN</th>
             <th>NO. HP</th>
