@@ -45,7 +45,7 @@
         </tr>
         <?php 
         $i = 1;
-        while($mhs = mysqli_fetch_assoc($result)) { ?>
+        foreach($rows as $mhs) { ?>
         <tr>
             <td><?= $i  ?></td>
             <td><?= $mhs["nama"] ?></td>
