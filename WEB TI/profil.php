@@ -25,13 +25,13 @@
         </tr>
         <tr>
             <td>1</td>
-            <td>RIEFANDI DWIKI SURYA PUTA</td>
-            <td>13242420001</td>
+            <td>Gibran Bintang Hakim</td>
+            <td>13242420006</td>
             <td>MAHASIGMA</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>ACMAD SYAIFULLOH</td>
+            <td>Ahmad Syaifulloh</td>
             <td>132424200016</td>
             <td>MAHASIGMA</td>
         </tr>
