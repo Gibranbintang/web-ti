@@ -41,3 +41,23 @@ function hapusmhs($id)
     mysqli_query($koneksi, $query);
     return mysqli_affected_rows($koneksi);
 }
+function editmahasiswa($data, $id)
+{
+    global $koneksi;
+        $nama = $data["nama"];
+        $nim = $data["nim"];
+        $jurusan = $data["jurusan"];
+        $nohp = $data["nohp"];
+
+        $query = "UPDATE mahasiswa set 
+        nama='$nama',
+        nim='$nim',
+        prodi='$jurusan',
+        nohp='$nohp'
+        WHERE id=$id
+        ";
+
+        mysqli_query($koneksi, $query);
+
+        return mysqli_affected_rows($koneksi);
+}
