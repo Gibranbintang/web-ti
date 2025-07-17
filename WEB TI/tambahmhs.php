@@ -54,6 +54,8 @@
         <input type="text" name="jurusan" id="jurusan" required/> <br>
         <label for="nohp">NoHp:</label>
         <input type="text" name="nohp" id="nohp" required/> <br>
+        <label for="foto">Foto:</label>
+        <input type="file" name="foto" /> <br>
         <button type="submit" name="submit">Tambah</button>
     </form>
 </body>
