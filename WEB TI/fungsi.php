@@ -29,7 +29,14 @@ function tambahdatamhs($data)
         $jurusan = $data["jurusan"];
         $nohp = $data["nohp"];
 
+ $file = $_FILES["foto"]["name"];
+        $namefile = date('dmy_hms') . "_" . $file;
+        $tmp = $_FILES["foto"]["tmp_name"];
+        $folder = 'foto/';
+        $path = $folder . $namefile;
+ {
         $query = "INSERT INTO mahasiswa VALUES('', '$nama','$nim','$jurusan', '$nohp')";
+ }
         mysqli_query($koneksi, $query);
 
         return mysqli_affected_rows($koneksi);
